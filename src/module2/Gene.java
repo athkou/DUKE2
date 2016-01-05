@@ -55,11 +55,7 @@ public class Gene
         return Math.min(stop1, Math.min(stop2, stop3));
     }
 
-    public void PrintAll()
-    {
-        //for(String gene : genes_pool_.data()) System.out.println("Gene: " + gene);
-        System.out.println("\nNumber of genes: " + genes_pool_.size());
-    }
+    public void PrintAll() { System.out.println("\nNumber of genes: " + genes_pool_.size()); }
 
     public void Print(int num_of_characters)
     {

@@ -9,10 +9,7 @@ import org.apache.commons.csv.*;
 
 public class SimpleCSV
 {
-    public SimpleCSV(FileResource file)
-    {
-        file_   = file;
-    }
+    public SimpleCSV(FileResource file) { file_   = file; }
 
     public void Test()
     {

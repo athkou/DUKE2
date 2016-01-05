@@ -8,7 +8,7 @@ public class Example
     {
         try
         {
-            String path = "C:\\DEV\\Workspace\\Duke Course 2\\data\\us_babynames_by_year\\";
+            String path = "\\data\\us_babynames_by_year\\";
             String file_name = "yob1905.csv";
             BabyBirths ex = new BabyBirths(path, file_name);
             //ex.TestGetTotalBirthsRankedHigher();

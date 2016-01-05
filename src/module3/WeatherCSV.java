@@ -264,7 +264,7 @@ public class WeatherCSV
         String file_name = FileWithColdestTemperature();
         System.out.println("Coldest day was in file: " + file_name);
 
-        String path = "C:\\DEV\\Workspace\\Duke Course 2\\data\\nc_weather\\2013\\" + file_name;
+        String path = "\\data\\nc_weather\\2013\\" + file_name;
 
         FileResource file = new FileResource(path);
         CSVRecord record = ColdestHourInFile(file.getCSVParser());

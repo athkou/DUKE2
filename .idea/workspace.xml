@@ -1,24 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="86e5769d-5191-4b70-8917-15758931a475" name="Default" comment="Changing the application from console to JavaFX and reorganizing the project structure.">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resource/css/application.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resource/fxml/application.fxml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/module4/Controller.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/module4/Main.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Duke Course 2/module4/Baby.class" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/data/data.zip" afterPath="$PROJECT_DIR$/resource/data/data.zip" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Duke Course 2/module2/Gene.class" afterPath="$PROJECT_DIR$/out/production/Duke Course 2/module2/Gene.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Duke Course 2/module3/SimpleCSV.class" afterPath="$PROJECT_DIR$/out/production/Duke Course 2/module3/SimpleCSV.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Duke Course 2/module3/WeatherCSV.class" afterPath="$PROJECT_DIR$/out/production/Duke Course 2/module3/WeatherCSV.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Duke Course 2/module4/BabyBirths.class" afterPath="$PROJECT_DIR$/out/production/Duke Course 2/module4/BabyBirths.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Duke Course 2/module4/Example.class" afterPath="$PROJECT_DIR$/out/production/Duke Course 2/module4/Example.class" />
+    <list default="true" id="86e5769d-5191-4b70-8917-15758931a475" name="Default" comment="Removed the css and added a first functionality to the application">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Duke Course 2.iml" afterPath="$PROJECT_DIR$/Duke Course 2.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/module2/Gene.java" afterPath="$PROJECT_DIR$/src/module2/Gene.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/module3/SimpleCSV.java" afterPath="$PROJECT_DIR$/src/module3/SimpleCSV.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/module3/WeatherCSV.java" afterPath="$PROJECT_DIR$/src/module3/WeatherCSV.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/module4/Example.java" afterPath="$PROJECT_DIR$/src/module4/Example.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resource/css/application.css" afterPath="$PROJECT_DIR$/resource/css/application.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resource/fxml/application.fxml" afterPath="$PROJECT_DIR$/resource/fxml/application.fxml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/module4/BabyBirths.java" afterPath="$PROJECT_DIR$/src/module4/BabyBirths.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/module4/Controller.java" afterPath="$PROJECT_DIR$/src/module4/Controller.java" />
     </list>
     <ignored path="Duke Course 2.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -40,73 +28,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="GeneTestApp.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/module2/GeneTestApp.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="24" column="24" selection-start-line="24" selection-start-column="24" selection-end-line="24" selection-end-column="24" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Gene.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/module2/Gene.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="57" column="93" selection-start-line="57" selection-start-column="93" selection-end-line="57" selection-end-column="93" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Example.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/module2/Example.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BatchGrayScale.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/module1/BatchGrayScale.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Example.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/module1/Example.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/module4/Main.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
               <caret line="26" column="8" selection-start-line="26" selection-start-column="8" selection-end-line="26" selection-end-column="8" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="application.fxml" pinned="false" current-in-tab="false">
+      <file leaf-file-name="application.fxml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/resource/fxml/application.fxml">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-3.0363636">
-              <caret line="42" column="19" selection-start-line="42" selection-start-column="19" selection-end-line="42" selection-end-column="19" />
+            <state vertical-scroll-proportion="0.7012302">
+              <caret line="80" column="17" selection-start-line="80" selection-start-column="17" selection-end-line="80" selection-end-column="17" />
               <folding />
             </state>
           </provider>
@@ -119,32 +55,32 @@
         <entry file="file://$PROJECT_DIR$/resource/css/application.css">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="3" column="27" selection-start-line="3" selection-start-column="27" selection-end-line="3" selection-end-column="27" />
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Controller.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Controller.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/module4/Controller.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.21794872">
-              <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="23" column="28" selection-start-line="23" selection-start-column="28" selection-end-line="23" selection-end-column="28" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#199#200#0" expanded="true" />
-                <element signature="e#263#264#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="WeatherCSV.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/module3/WeatherCSV.java">
+      <file leaf-file-name="BabyBirths.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/module4/BabyBirths.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="27" column="37" selection-start-line="27" selection-start-column="37" selection-end-line="27" selection-end-column="37" />
-              <folding />
+              <caret line="381" column="32" selection-start-line="381" selection-start-column="32" selection-end-line="381" selection-end-column="32" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -185,15 +121,15 @@
         <option value="$PROJECT_DIR$/src/module3/Example.java" />
         <option value="$PROJECT_DIR$/src/module4/Baby.java" />
         <option value="$PROJECT_DIR$/data/us_babynames_small/testing/yob2014short.csv" />
-        <option value="$PROJECT_DIR$/src/module4/BabyBirths.java" />
         <option value="$PROJECT_DIR$/src/module4/Example.java" />
         <option value="$PROJECT_DIR$/src/module3/SimpleCSV.java" />
         <option value="$PROJECT_DIR$/src/module3/WeatherCSV.java" />
         <option value="$PROJECT_DIR$/src/module2/Gene.java" />
-        <option value="$PROJECT_DIR$/src/module4/Controller.java" />
         <option value="$PROJECT_DIR$/src/module4/Main.java" />
-        <option value="$PROJECT_DIR$/resource/fxml/application.fxml" />
         <option value="$PROJECT_DIR$/resource/css/application.css" />
+        <option value="$PROJECT_DIR$/resource/fxml/application.fxml" />
+        <option value="$PROJECT_DIR$/src/module4/BabyBirths.java" />
+        <option value="$PROJECT_DIR$/src/module4/Controller.java" />
       </list>
     </option>
   </component>
@@ -235,17 +171,12 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
             <PATH_ELEMENT>
               <option name="myItemId" value="Duke Course 2" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="External Libraries" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
@@ -290,64 +221,15 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Duke Course 2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Duke Course 2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resource" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="fxml" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Duke Course 2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Duke Course 2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resource" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Duke Course 2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Duke Course 2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resource" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="css" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
       <pane id="Scratches" />
       <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/lib" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../pomodoro-project/project" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -699,10 +581,17 @@
       <option name="number" value="Default" />
       <updated>1451293987749</updated>
     </task>
+    <task id="LOCAL-00001" summary="Changing the application from console to JavaFX and reorganizing the project structure.">
+      <created>1452032316853</created>
+      <option name="number" value="00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1452032316853</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="784" extended-state="0" />
+    <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -712,7 +601,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.38957056" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2285276" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297546" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1785174" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -742,7 +631,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Changing the application from console to JavaFX and reorganizing the project structure." />
-    <option name="LAST_COMMIT_MESSAGE" value="Changing the application from console to JavaFX and reorganizing the project structure." />
+    <MESSAGE value="Removed the css and added a first functionality to the application" />
+    <option name="LAST_COMMIT_MESSAGE" value="Removed the css and added a first functionality to the application" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -759,30 +649,39 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/module4/BabyBirths.java">
+    <entry file="file://$PROJECT_DIR$/src/module4/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resource/fxml/application.fxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="42" column="19" selection-start-line="42" selection-start-column="19" selection-end-line="42" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="JavaFX-Scene-Builder">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resource/css/application.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="3" column="27" selection-start-line="3" selection-start-column="27" selection-end-line="3" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/module4/Controller.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
           <folding>
-            <element signature="e#0#11745#0" expanded="true" />
             <element signature="imports" expanded="true" />
-            <element signature="method#BabyBirths#0;class#BabyBirths#0" expanded="false" />
-            <element signature="method#GetTotalBirthsRankedHigher#0;class#BabyBirths#0" expanded="false" />
-            <element signature="method#GetAverageRank#0;class#BabyBirths#0" expanded="false" />
-            <element signature="method#GetYearFromString#0;class#BabyBirths#0" expanded="false" />
-            <element signature="method#YearOfHighestRank#0;class#BabyBirths#0" expanded="false" />
-            <element signature="method#WhatIsNameInYear#0;class#BabyBirths#0" expanded="false" />
-            <element signature="method#GetName#0;class#BabyBirths#0" expanded="false" />
-            <element signature="method#GetRank#0;class#BabyBirths#0" expanded="false" />
-            <element signature="method#TotalBirths#0;class#BabyBirths#0" expanded="false" />
-            <element signature="method#TestTotalBirths#0;class#BabyBirths#0" expanded="false" />
-            <element signature="method#TestGetTotalBirthsRankedHigher#0;class#BabyBirths#0" expanded="false" />
-            <element signature="method#TestGetAverageRank#0;class#BabyBirths#0" expanded="false" />
-            <element signature="method#TestYearOfHighestRank#0;class#BabyBirths#0" expanded="false" />
-            <element signature="method#TestWhatIsNameInYear#0;class#BabyBirths#0" expanded="false" />
-            <element signature="method#TestGetName#0;class#BabyBirths#0" expanded="false" />
-            <element signature="method#TestGetRank#0;class#BabyBirths#0" expanded="false" />
-            <element signature="method#IndexOfFirstFindNumber#0;class#BabyBirths#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -791,27 +690,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#11745#0" expanded="true" />
-            <element signature="imports" expanded="true" />
-            <element signature="method#BabyBirths#0;class#BabyBirths#0" expanded="false" />
-            <element signature="method#GetTotalBirthsRankedHigher#0;class#BabyBirths#0" expanded="false" />
-            <element signature="method#GetAverageRank#0;class#BabyBirths#0" expanded="false" />
-            <element signature="method#GetYearFromString#0;class#BabyBirths#0" expanded="false" />
-            <element signature="method#YearOfHighestRank#0;class#BabyBirths#0" expanded="false" />
-            <element signature="method#WhatIsNameInYear#0;class#BabyBirths#0" expanded="false" />
-            <element signature="method#GetName#0;class#BabyBirths#0" expanded="false" />
-            <element signature="method#GetRank#0;class#BabyBirths#0" expanded="false" />
-            <element signature="method#TotalBirths#0;class#BabyBirths#0" expanded="false" />
-            <element signature="method#TestTotalBirths#0;class#BabyBirths#0" expanded="false" />
-            <element signature="method#TestGetTotalBirthsRankedHigher#0;class#BabyBirths#0" expanded="false" />
-            <element signature="method#TestGetAverageRank#0;class#BabyBirths#0" expanded="false" />
-            <element signature="method#TestYearOfHighestRank#0;class#BabyBirths#0" expanded="false" />
-            <element signature="method#TestWhatIsNameInYear#0;class#BabyBirths#0" expanded="false" />
-            <element signature="method#TestGetName#0;class#BabyBirths#0" expanded="false" />
-            <element signature="method#TestGetRank#0;class#BabyBirths#0" expanded="false" />
-            <element signature="method#IndexOfFirstFindNumber#0;class#BabyBirths#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -819,27 +697,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#11745#0" expanded="true" />
-            <element signature="imports" expanded="true" />
-            <element signature="method#BabyBirths#0;class#BabyBirths#0" expanded="false" />
-            <element signature="method#GetTotalBirthsRankedHigher#0;class#BabyBirths#0" expanded="false" />
-            <element signature="method#GetAverageRank#0;class#BabyBirths#0" expanded="false" />
-            <element signature="method#GetYearFromString#0;class#BabyBirths#0" expanded="false" />
-            <element signature="method#YearOfHighestRank#0;class#BabyBirths#0" expanded="false" />
-            <element signature="method#WhatIsNameInYear#0;class#BabyBirths#0" expanded="false" />
-            <element signature="method#GetName#0;class#BabyBirths#0" expanded="false" />
-            <element signature="method#GetRank#0;class#BabyBirths#0" expanded="false" />
-            <element signature="method#TotalBirths#0;class#BabyBirths#0" expanded="false" />
-            <element signature="method#TestTotalBirths#0;class#BabyBirths#0" expanded="false" />
-            <element signature="method#TestGetTotalBirthsRankedHigher#0;class#BabyBirths#0" expanded="false" />
-            <element signature="method#TestGetAverageRank#0;class#BabyBirths#0" expanded="false" />
-            <element signature="method#TestYearOfHighestRank#0;class#BabyBirths#0" expanded="false" />
-            <element signature="method#TestWhatIsNameInYear#0;class#BabyBirths#0" expanded="false" />
-            <element signature="method#TestGetName#0;class#BabyBirths#0" expanded="false" />
-            <element signature="method#TestGetRank#0;class#BabyBirths#0" expanded="false" />
-            <element signature="method#IndexOfFirstFindNumber#0;class#BabyBirths#0" expanded="false" />
-          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/module4/BabyBirths.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -938,7 +802,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -946,7 +809,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -954,7 +816,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -962,7 +823,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -970,7 +830,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -999,47 +858,10 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/module4/BabyBirths.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="243" column="0" selection-start-line="243" selection-start-column="0" selection-end-line="243" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#11745#0" expanded="true" />
-            <element signature="imports" expanded="true" />
-            <element signature="method#BabyBirths#0;class#BabyBirths#0" expanded="false" />
-            <element signature="method#GetTotalBirthsRankedHigher#0;class#BabyBirths#0" expanded="false" />
-            <element signature="method#GetAverageRank#0;class#BabyBirths#0" expanded="false" />
-            <element signature="method#GetYearFromString#0;class#BabyBirths#0" expanded="false" />
-            <element signature="method#YearOfHighestRank#0;class#BabyBirths#0" expanded="false" />
-            <element signature="method#WhatIsNameInYear#0;class#BabyBirths#0" expanded="false" />
-            <element signature="method#GetName#0;class#BabyBirths#0" expanded="false" />
-            <element signature="method#GetRank#0;class#BabyBirths#0" expanded="false" />
-            <element signature="method#TotalBirths#0;class#BabyBirths#0" expanded="false" />
-            <element signature="method#TestTotalBirths#0;class#BabyBirths#0" expanded="false" />
-            <element signature="method#TestGetTotalBirthsRankedHigher#0;class#BabyBirths#0" expanded="false" />
-            <element signature="method#TestGetAverageRank#0;class#BabyBirths#0" expanded="false" />
-            <element signature="method#TestYearOfHighestRank#0;class#BabyBirths#0" expanded="false" />
-            <element signature="method#TestWhatIsNameInYear#0;class#BabyBirths#0" expanded="false" />
-            <element signature="method#TestGetName#0;class#BabyBirths#0" expanded="false" />
-            <element signature="method#TestGetRank#0;class#BabyBirths#0" expanded="false" />
-            <element signature="method#IndexOfFirstFindNumber#0;class#BabyBirths#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/module4/Example.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="3" column="20" selection-start-line="3" selection-start-column="20" selection-end-line="3" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/module3/Example.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="14" column="23" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="23" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1047,7 +869,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="11" column="58" selection-start-line="11" selection-start-column="58" selection-end-line="11" selection-end-column="58" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1055,7 +876,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="12" column="5" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1063,7 +883,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="24" column="53" selection-start-line="18" selection-start-column="12" selection-end-line="24" selection-end-column="53" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1071,9 +890,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-          <folding>
-            <element signature="e#0#533#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1081,9 +897,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-          <folding>
-            <element signature="e#0#2258#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1091,9 +904,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-          <folding>
-            <element signature="e#0#982#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1101,7 +911,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1109,7 +918,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="24" column="24" selection-start-line="24" selection-start-column="24" selection-end-line="24" selection-end-column="24" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1117,7 +925,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="57" column="93" selection-start-line="57" selection-start-column="93" selection-end-line="57" selection-end-column="93" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1125,7 +932,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1133,7 +939,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1141,7 +946,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/module3/WeatherCSV.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.21794872">
+          <caret line="27" column="37" selection-start-line="27" selection-start-column="37" selection-end-line="27" selection-end-column="37" />
         </state>
       </provider>
     </entry>
@@ -1149,49 +960,63 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="26" column="8" selection-start-line="26" selection-start-column="8" selection-end-line="26" selection-end-column="8" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/module3/WeatherCSV.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="27" column="37" selection-start-line="27" selection-start-column="37" selection-end-line="27" selection-end-column="37" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resource/fxml/application.fxml">
+    <entry file="file://$PROJECT_DIR$/resource/data/us_babynames_by_year/yob1880.csv">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.0363636">
-          <caret line="42" column="19" selection-start-line="42" selection-start-column="19" selection-end-line="42" selection-end-column="19" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
-      <provider editor-type-id="JavaFX-Scene-Builder">
-        <state />
-      </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resource/css/application.css">
+    <entry file="file://$PROJECT_DIR$/src/module4/Example.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="3" column="27" selection-start-line="3" selection-start-column="27" selection-end-line="3" selection-end-column="27" />
+        <state vertical-scroll-proportion="0.035789475">
+          <caret line="3" column="20" selection-start-line="3" selection-start-column="20" selection-end-line="3" selection-end-column="20" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/module4/Controller.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.21794872">
-          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="23" column="28" selection-start-line="23" selection-start-column="28" selection-end-line="23" selection-end-column="28" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#199#200#0" expanded="true" />
-            <element signature="e#263#264#0" expanded="true" />
           </folding>
         </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resource/css/application.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/module4/BabyBirths.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="381" column="32" selection-start-line="381" selection-start-column="32" selection-end-line="381" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resource/fxml/application.fxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.7012302">
+          <caret line="80" column="17" selection-start-line="80" selection-start-column="17" selection-end-line="80" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="JavaFX-Scene-Builder">
+        <state />
       </provider>
     </entry>
   </component>

@@ -25,6 +25,14 @@ public class BabyBirths
         ResetMaleRank();
     }
 
+    public BabyBirths(String path)
+    {
+        path_      = path;
+        file_name_ = "";
+
+        ResetMaleRank();
+    }
+
     // Seventh method to implement
     public long GetTotalBirthsRankedHigher(int year,
                                            String name,

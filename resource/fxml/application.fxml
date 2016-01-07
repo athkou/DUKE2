@@ -5,7 +5,8 @@
 
 <?import javafx.scene.text.Text?>
 <?import javafx.scene.control.TextField?>
-<?import javafx.scene.control.CheckBox?>
+
+<?import javafx.scene.layout.HBox?>
 <GridPane
         fx:controller="module4.Controller"
         stylesheets="/css/application.css"
@@ -14,9 +15,8 @@
         hgap="10"
         vgap="10">
 
-
     <Text
-            text = "Hi"
+            text = "Welcome to the Baby Name Application"
             styleClass="title"
             GridPane.rowIndex="0"
             GridPane.columnSpan="2"
@@ -35,7 +35,6 @@
     />
     <Label
             text = "Year of birthday"
-            styleClass="label"
             GridPane.rowIndex="2"
             GridPane.columnIndex="0"
     />
@@ -45,28 +44,42 @@
             GridPane.columnIndex="1"
     />
     <Label
-            text = "Gender"
-            styleClass="label"
+            text = "New year"
             GridPane.rowIndex="3"
             GridPane.columnIndex="0"
     />
-    <CheckBox
+    <TextField
+            fx:id="new_birth_year"
             GridPane.rowIndex="3"
             GridPane.columnIndex="1"
-            text="Female"
-
     />
-    <CheckBox
-            GridPane.rowIndex="3"
-            GridPane.columnIndex="2"
-            text="Male"
-
-    />
-    <Button
-            onAction="#HandleSayHi"
-            text = "Say Hi!"
+    <Label
+            text = "Gender"
             GridPane.rowIndex="4"
+            GridPane.columnIndex="0"
+    />
+    <Label
+            text = "New Name"
+            GridPane.rowIndex="5"
+            GridPane.columnIndex="0"
+    />
+    <TextField
+            text ="${controller.new_name}"
+            GridPane.rowIndex="5"
             GridPane.columnIndex="1"
-            GridPane.halignment="RIGHT"
+    />
+    <HBox
+            spacing="10"
+            alignment="BOTTOM_RIGHT"
+            GridPane.rowIndex="6"
+            GridPane.columnIndex="1">
+            <Button
+                    onAction="#HandleSubmitButton"
+                    text = "Get New Name"
+            />
+    </HBox>
+    <Text fx:id="action_target"
+          GridPane.rowIndex="7"
+          GridPane.columnIndex="0"
     />
 </GridPane>

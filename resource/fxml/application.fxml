@@ -7,6 +7,8 @@
 <?import javafx.scene.control.TextField?>
 
 <?import javafx.scene.layout.HBox?>
+<?import javafx.scene.control.ToggleGroup?>
+<?import javafx.scene.control.RadioButton?>
 <GridPane
         fx:controller="module4.Controller"
         stylesheets="/css/application.css"
@@ -58,6 +60,28 @@
             GridPane.rowIndex="4"
             GridPane.columnIndex="0"
     />
+    <HBox
+            GridPane.rowIndex="4"
+            GridPane.columnIndex="1"
+            spacing="10"
+    >
+        <fx:define>
+            <ToggleGroup fx:id="gender_group"/>
+        </fx:define>
+        <children>
+            <RadioButton
+                    text="Female"
+                    selected="true"
+                    toggleGroup="$gender_group"
+
+            />
+            <RadioButton
+                    text="Male"
+                    toggleGroup="$gender_group"
+
+            />
+        </children>
+    </HBox>
     <Label
             text = "New Name"
             GridPane.rowIndex="5"
@@ -78,8 +102,9 @@
                     text = "Get New Name"
             />
     </HBox>
-    <Text fx:id="action_target"
-          GridPane.rowIndex="7"
-          GridPane.columnIndex="0"
+    <Text
+            text ="${controller.message}"
+            GridPane.rowIndex="9"
+            GridPane.columnIndex="1"
     />
 </GridPane>
